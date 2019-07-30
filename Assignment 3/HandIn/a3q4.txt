@@ -1,0 +1,12 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT 317 A3Q4
+
+
+1. How many of the problem problems did your implementation solve within the time limit?
+    How does this compare to the previous implementation (A3Q3)
+    1. it could solve 45-50 problems in LatinSquare and all problems in hard_example.txt
+
+    2. To compare A3Q3, Q4 obviously faster than than A3Q3, and it could solve more problem,
+        Also, save more time on the solving

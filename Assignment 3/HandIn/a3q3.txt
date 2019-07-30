@@ -1,0 +1,38 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT 317 A3Q3
+
+1. How many problems did your implementation solve within 10 second
+     Around 40 problem:
+
+    Search successful (7.200241088867188e-05 sec, 5 nodes, 1 queue)
+    Search successful (6.914138793945312e-05 sec, 5 nodes, 1 queue)
+    Search successful (6.771087646484375e-05 sec, 5 nodes, 1 queue)
+    Search successful (0.0001571178436279297 sec, 7 nodes, 1 queue)
+    Search successful (0.00018310546875 sec, 7 nodes, 2 queue)
+    Search successful (0.0001571178436279297 sec, 7 nodes, 1 queue)
+    Search successful (0.0005102157592773438 sec, 11 nodes, 3 queue)
+    Search successful (0.00024700164794921875 sec, 8 nodes, 1 queue)
+    Search successful (0.0004851818084716797 sec, 10 nodes, 2 queue)
+    Search successful (0.0010080337524414062 sec, 14 nodes, 1 queue)
+    Search successful (0.0028040409088134766 sec, 11 nodes, 2 queue)
+    Search successful (0.0015492439270019531 sec, 7 nodes, 2 queue)
+    Search successful (0.007216215133666992 sec, 26 nodes, 4 queue)
+    Search successful (0.005628824234008789 sec, 25 nodes, 2 queue)
+    Search successful (0.0048601627349853516 sec, 11 nodes, 2 queue)
+    Search successful (0.01042318344116211 sec, 20 nodes, 3 queue)
+    Search successful (0.020186901092529297 sec, 44 nodes, 3 queue)
+    Search successful (0.02740311622619629 sec, 44 nodes, 4 queue)
+    Search successful (0.025985240936279297 sec, 25 nodes, 3 queue)
+
+2. The Largest N that your implementation as able to solve. Do a rough, back-of-envelope calculation
+    to predict how much time it would take to solve the next largest problem in the file. And the very
+    largest problem in the file. Submit your rough calculation, and your predication
+
+
+        calculation: The max successful solving is using 3.76s, however, it spent more time on
+            the problem which they failed. The largest problem it solved is 3.76s, and the step size for each
+            searching is around 1s. And the maximum they spent on the failed problem is 14.33s, and the
+            step size is around 2s, so I predict the next largest problem will be cost around 16s if failed, or
+            taking 4 - 5 sec if successful

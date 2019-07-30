@@ -1,0 +1,28 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT 317 A3Q1
+
+1. How many problems did your implementation solve within 10 second
+     Around 3 - 5 problem:
+        Search successful (2.769587993621826 sec, 141 nodes, 2661 queue)
+        Search successful (2.3369407653808594 sec, 141 nodes, 2661 queue)
+        Search successful (2.824223041534424 sec, 156 nodes, 3101 queue)
+        Search successful (3.8210623264312744 sec, 171 nodes, 3571 queue)
+        Search successful (4.750598192214966 sec, 187 nodes, 4093 queue)
+
+2. The Largest N that your implementation as able to solve. Do a rough, back-of-envelope calculation
+    to predict how much time it would take to solve the next largest problem in the file. And the very
+    largest problem in the file. Submit your rough calculation, and your predication
+
+        From console:
+
+        Search failed (102.271834135055542 sec, 41 nodes, 1961 queue)
+        Search failed (103.373311042785645 sec, 37 nodes, 2665 queue)
+        Search failed (103.903760194778442 sec, 10 nodes, 667 queue)
+        Search failed (105.37730836868286 sec, 4 nodes, 298 queue)
+
+        calculation: The max successful solving is using 4.75s, however, it spent more time on
+            the problem which they failed. The largest problem it solved is 4.75s, and the step size for each
+            searching is around 1s. And the maximum they spent on the failed problem is 105.37s, and the
+            step size is around 2s, so I predict the next largest problem will be cost around 100s or more

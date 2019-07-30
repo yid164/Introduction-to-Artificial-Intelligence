@@ -1,0 +1,10 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT 317 A3Q2
+
+1. My solution requires Python 3.X
+2. Put all files which I submitted in same directory
+3. In Unix, please type: " python ./RunQ2.py to run
+4. And the directory also need the files: A1Search.py, LatinSquares.txt, Frontier.py
+
