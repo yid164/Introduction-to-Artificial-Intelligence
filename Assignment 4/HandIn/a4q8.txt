@@ -1,0 +1,397 @@
+# Name: Yinsheng Dong
+# Student Number: 11148648
+# NSID: yid164
+# CMPT317 A4Q8
+
+1. Compare the Minimax values for A4Q1 and A4Q2. The minimax value used a different scale (-1,1)
+   versus a count of the number of queens, but did this change which player won the game?
+
+   Solution:
+   After I changed the scale from (-inf, inf) to (-1, 1), After comparsion the tables,
+   I found this change does change which player won the game, becuase there is no draw in,
+   we only use -1 and 1 to show which player wins the game.
+
+   The table I got are:
+    ==========================================================================
+    Q1 (After change):
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.0001049041748046875sec
+    2		1				(0,0)				0.0001227855682373047sec
+    3		1				(0,1)				0.00028896331787109375sec
+    4		-1				(0,0)				0.0008399486541748047sec
+    5		1				(0,0)				0.0031011104583740234sec
+    6		1				(0,1)				0.009619951248168945sec
+    7		1				(0,2)				0.03453803062438965sec
+    8		-1				(0,0)				0.1357581615447998sec
+    9		-1				(0,2)				0.5444543361663818sec
+    10		1				(0,2)				2.4095072746276855sec
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		1				(0,4)				12.015181064605713sec
+    12		1				(0,4)				13.69899296760559sec
+    ========================================================================
+    Q1 (Before change)
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00011110305786132812sec
+    2		1				(0,0)				0.00012111663818359375sec
+    3		1				(0,1)				0.00026226043701171875sec
+    4		-1				(0,0)				0.0008141994476318359sec
+    5		1				(0,0)				0.002683877944946289sec
+    6		1				(0,1)				0.008322000503540039sec
+    7		1				(0,2)				0.030955076217651367sec
+    8		-1				(0,0)				0.12430095672607422sec
+    9		-1				(0,0)				0.6169638633728027sec
+    10		1				(0,2)				2.3497731685638428sec
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		1				(0,4)				11.328719854354858sec
+    12		1				(0,4)				12.458974123001099sec
+
+
+2. Compare the runtimes for A4Q1 and A4Q2. Which variation seemed to be faster? Explain why.
+
+    Solution:
+
+    By comparing the talbes which are produced by A4Q1 and A4Q2
+    The runtime for A4Q1 and A4Q2 is pretty similar, there is no one is faster than other
+    I think the reason is the algorithm is same, but the only different is utility() function
+    So the complexity of Q1 and Q2 is same, so the running time is simialr
+
+    There is the tables of A4Q1 and A4Q2:
+    ==========================================================================
+    A4Q1:
+
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00011086463928222656sec
+    2		1				(0,0)				0.00011873245239257812sec
+    3		1				(0,1)				0.0002589225769042969sec
+    4		-1				(0,0)				0.0008208751678466797sec
+    5		1				(0,0)				0.002696990966796875sec
+    6		1				(0,1)				0.00875401496887207sec
+    7		1				(0,2)				0.0430142879486084sec
+    8		-1				(0,0)				0.538625955581665sec
+    9		-1				(0,0)				0.6180570125579834sec
+    10		1				(0,2)				2.357046127319336sec
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		1				(0,4)				11.399413824081421sec
+    12		1				(0,4)				11.429447889328003sec
+
+    ==========================================================================
+    A4Q2:
+
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00010609626770019531sec
+    2		1				(0,0)				0.00012612342834472656sec
+    3		1				(0,1)				0.00030684471130371094sec
+    4		-2				(0,0)				0.0008299350738525391sec
+    5		3				(0,1)				0.002825021743774414sec
+    6		3				(0,1)				0.009924888610839844sec
+    7		3				(0,2)				0.03383612632751465sec
+    8		-4				(0,0)				0.13851499557495117sec
+    9		-4				(0,0)				0.5719749927520752sec
+    10		4				(0,2)				2.41978120803833sec
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		4				(0,4)				11.666558980941772sec
+    12		4				(0,4)				11.922500848770142sec
+
+3. Compare the Minimax values for A4Q1 and A4Q3. Were they the same?
+
+    Solution:
+
+    Yes, they are same. There is the data table that A4Q1 and A4Q3 produced:
+
+    ==========================================================================
+    A4Q1:
+
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00011086463928222656sec
+    2		1				(0,0)				0.00011873245239257812sec
+    3		1				(0,1)				0.0002589225769042969sec
+    4		-1				(0,0)				0.0008208751678466797sec
+    5		1				(0,0)				0.002696990966796875sec
+    6		1				(0,1)				0.00875401496887207sec
+    7		1				(0,2)				0.0430142879486084sec
+    8		-1				(0,0)				0.538625955581665sec
+    9		-1				(0,0)				0.6180570125579834sec
+    10		1				(0,2)				2.357046127319336sec
+
+
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		1				(0,4)				11.399413824081421sec
+    12		1				(0,4)				11.429447889328003sec
+
+    ==========================================================================
+    A4Q3:
+
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00010395050048828125sec
+    2		1				(0,0)				0.0001227855682373047sec
+    3		1				(0,1)				0.00027489662170410156sec
+    4		-1				(0,0)				0.0008211135864257812sec
+    5		1				(0,0)				0.0016388893127441406sec
+    6		1				(0,1)				0.0043010711669921875sec
+    7		1				(0,2)				0.011289834976196289sec
+    8		-1				(0,0)				0.03606915473937988sec
+    9		-1				(0,0)				0.10426092147827148sec
+    10		1				(0,2)				0.1415722370147705sec
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		1				(0,4)				0.33843302726745605sec
+    12		1				(0,4)				0.3491452350616455sec
+
+4. Compare the runtimes for A4Q1 and A4Q3. How much faster was the search, for games with larger N?
+
+    Solution:
+    By tables above.
+    For the larger N = 11, 12, the A4Q1 used 11.399 sec, 11.429 sec, and the A4Q3 used 0.338 sec, 0.349 sec
+    A4Q3 is generally faster 34 times than A4Q1
+
+5. Compare the Minimax values for A4Q2 and A4Q4. Were they the same?
+
+    Solution:
+    By comparing the data tables which A4Q2 and A4Q4 produced, they are same
+    ==========================================================================
+    A4Q2:
+
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00010609626770019531sec
+    2		1				(0,0)				0.00012612342834472656sec
+    3		1				(0,1)				0.00030684471130371094sec
+    4		-2				(0,0)				0.0008299350738525391sec
+    5		3				(0,1)				0.002825021743774414sec
+    6		3				(0,1)				0.009924888610839844sec
+    7		3				(0,2)				0.03383612632751465sec
+    8		-4				(0,0)				0.13851499557495117sec
+    9		-4				(0,0)				0.5719749927520752sec
+    10		4				(0,2)				2.41978120803833sec
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		4				(0,4)				11.666558980941772sec
+    12		4				(0,4)				11.922500848770142sec
+    ==========================================================================
+
+    A4Q4:
+
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00011181831359863281sec
+    2		1				(0,0)				0.00012493133544921875sec
+    3		1				(0,1)				0.00026798248291015625sec
+    4		-2				(0,0)				0.0008249282836914062sec
+    5		3				(0,1)				0.0029287338256835938sec
+    6		3				(0,1)				0.004719972610473633sec
+    7		3				(0,2)				0.014106988906860352sec
+    8		-4				(0,0)				0.039724111557006836sec
+    9		-4				(0,0)				0.11368608474731445sec
+    10		4				(0,2)				0.21765685081481934sec
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		4				(0,4)				0.5113930130004883sec
+    12		4				(0,4)				0.5749068832397461sec
+
+6. Compare the runtimes for A4Q2 and A4Q4. How much faster was the search, for games with larger N?
+
+   Solution:
+
+   By the data table above, I got the lager size from A4Q2: size = 11, time = 11.665 sec; size = 12, time = 11.922 sec,
+   In the A4Q4, size = 11, time = 0.511; size = 12, time = 0.574, A4Q4 is generally faster than A4Q2 23 times
+
+7. Compare the Minimax values for A4Q1 and A4Q5. Were they the same? Explain.
+
+    By comparing A4Q1's table and A4Q5's table, I found that before cutoff = 4, they are same
+    after cutoff = 4, they are have different Minimax Value. The reason is that after the cutoff, the eval() function
+    will output the random variable, so it made the difference.
+    The data set is there:
+
+    ==========================================================================
+    A4Q1:
+
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00011086463928222656sec
+    2		1				(0,0)				0.00011873245239257812sec
+    3		1				(0,1)				0.0002589225769042969sec
+    4		-1				(0,0)				0.0008208751678466797sec
+    5		1				(0,0)				0.002696990966796875sec
+    6		1				(0,1)				0.00875401496887207sec
+    7		1				(0,2)				0.0430142879486084sec
+    8		-1				(0,0)				0.538625955581665sec
+    9		-1				(0,0)				0.6180570125579834sec
+    10		1				(0,2)				2.357046127319336sec
+
+    larger size testing:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    11		1				(0,4)				11.399413824081421sec
+    12		1				(0,4)				11.429447889328003sec
+
+    ==========================================================================
+    ==========================================================================
+    A4Q5:
+
+    the cutoff is 4:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.0001049041748046875sec
+    2		1				(0,0)				0.0001201629638671875sec
+    3		1				(0,1)				0.00026297569274902344sec
+    4		-1				(0,0)				0.0008358955383300781sec
+    5		1				(0,2)				7.581710815429688e-05sec
+    6		-1				(0,5)				3.981590270996094e-05sec
+    7		1				(0,5)				4.076957702636719e-05sec
+    8		1				(0,0)				4.38690185546875e-05sec
+    9		1				(0,4)				4.696846008300781e-05sec
+    10		1				(0,3)				5.1975250244140625e-05sec
+    11		1				(0,0)				5.3882598876953125e-05sec
+    12		-1				(0,6)				5.888938903808594e-05sec
+    13		-1				(0,12)				6.103515625e-05sec
+    14		-1				(0,13)				6.4849853515625e-05sec
+    15		1				(0,13)				6.771087646484375e-05sec
+    16		1				(0,15)				7.104873657226562e-05sec
+    17		-1				(0,13)				8.296966552734375e-05sec
+    18		-1				(0,0)				7.867813110351562e-05sec
+    19		1				(0,13)				8.225440979003906e-05sec
+    20		1				(0,5)				8.606910705566406e-05sec
+
+    ==========================================================================
+
+8. Compare the runtimes for A4Q1 and A4Q5. How much faster was the search, for games with larger N?
+    Solution:
+    By tables above.
+
+    For the larger N = 11, 12, the A4Q1 used 11.399 sec, 11.429 sec, and the A4Q5 used 5.388e-5 sec, 5.888e-5 sec
+    A4Q5 is generally faster 200000 times than A4Q1
+
+
+9. Compare the Minimax values for A4Q5 and A4Q6 (Minimax with cut-off, two variations) with the results from A4Q7
+   (Alpha-Beta with cut-off, two variations). Were they the same? Explain.
+
+   Solution: before cut-off = 4, the result of Minimax value are same for A4Q4 and A4Q4 with the results from A4Q7
+   By the table showing.
+
+   There are the table:
+    ==========================================================================
+    A4Q5:
+
+    the cutoff is 4:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.0001049041748046875sec
+    2		1				(0,0)				0.0001201629638671875sec
+    3		1				(0,1)				0.00026297569274902344sec
+    4		-1				(0,0)				0.0008358955383300781sec
+    5		1				(0,2)				7.581710815429688e-05sec
+    6		-1				(0,5)				3.981590270996094e-05sec
+    7		1				(0,5)				4.076957702636719e-05sec
+    8		1				(0,0)				4.38690185546875e-05sec
+    9		1				(0,4)				4.696846008300781e-05sec
+    10		1				(0,3)				5.1975250244140625e-05sec
+    11		1				(0,0)				5.3882598876953125e-05sec
+    12		-1				(0,6)				5.888938903808594e-05sec
+    13		-1				(0,12)				6.103515625e-05sec
+    14		-1				(0,13)				6.4849853515625e-05sec
+    15		1				(0,13)				6.771087646484375e-05sec
+    16		1				(0,15)				7.104873657226562e-05sec
+    17		-1				(0,13)				8.296966552734375e-05sec
+    18		-1				(0,0)				7.867813110351562e-05sec
+    19		1				(0,13)				8.225440979003906e-05sec
+    20		1				(0,5)				8.606910705566406e-05sec
+
+    ==========================================================================
+
+    A4Q6:
+    the cutoff is 4:
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				0.00015091896057128906sec
+    2		1				(0,0)				0.00013017654418945312sec
+    3		1				(0,1)				0.0002789497375488281sec
+    4		-2				(0,0)				0.0008597373962402344sec
+    5		2				(0,3)				7.724761962890625e-05sec
+    6		3				(0,0)				3.981590270996094e-05sec
+    7		-3				(0,6)				4.1961669921875e-05sec
+    8		4				(0,3)				4.482269287109375e-05sec
+    9		-4				(0,4)				4.887580871582031e-05sec
+    10		-5				(0,4)				5.1975250244140625e-05sec
+    11		5				(0,0)				5.602836608886719e-05sec
+    12		6				(0,4)				5.984306335449219e-05sec
+    13		-6				(0,10)				6.413459777832031e-05sec
+    14		7				(0,9)				6.67572021484375e-05sec
+    15		7				(0,3)				6.914138793945312e-05sec
+    16		-8				(0,10)				7.414817810058594e-05sec
+    17		8				(0,13)				7.700920104980469e-05sec
+    18		9				(0,3)				8.082389831542969e-05sec
+    19		9				(0,17)				8.392333984375e-05sec
+    20		-10				(0,0)				8.797645568847656e-05sec
+    ==========================================================================
+
+    A4Q7
+
+                        Variation 1a
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    0		1				(0,0)				0.0001010894775390625sec
+    1		1				(0,0)				0.00011515617370605469sec
+    2		1				(0,1)				0.00030493736267089844sec
+    3		-1				(0,0)				0.0008420944213867188sec
+    4		1				(0,2)				0.00010514259338378906sec
+    5		1				(0,2)				6.413459777832031e-05sec
+    6		1				(0,5)				6.866455078125e-05sec
+    7		1				(0,5)				7.390975952148438e-05sec
+    8		-1				(0,8)				8.392333984375e-05sec
+    9		1				(0,0)				0.00017499923706054688sec
+    10		-1				(0,9)				9.703636169433594e-05sec
+    11		1				(0,3)				0.00010418891906738281sec
+    12		-1				(0,1)				0.00010895729064941406sec
+    13		1				(0,8)				0.00011706352233886719sec
+    14		-1				(0,4)				0.0001232624053955078sec
+    15		1				(0,8)				0.00012803077697753906sec
+    16		1				(0,4)				0.0001361370086669922sec
+    17		1				(0,4)				0.0001437664031982422sec
+    18		1				(0,15)				0.00014972686767578125sec
+    19		1				(0,13)				0.0001571178436279297sec
+
+                        Variation 1b
+    Size, Minimax Value,  Best Opening, Move Time in Second
+    1		1				(0,0)				6.389617919921875e-05sec
+    2		1				(0,0)				0.00010704994201660156sec
+    3		1				(0,1)				0.00026607513427734375sec
+    4		-2				(0,0)				0.000865936279296875sec
+    5		2				(0,3)				5.793571472167969e-05sec
+    6		3				(0,0)				6.29425048828125e-05sec
+    7		-3				(0,6)				6.890296936035156e-05sec
+    8		4				(0,5)				7.557868957519531e-05sec
+    9		-4				(0,6)				8.20159912109375e-05sec
+    10		5				(0,5)				9.083747863769531e-05sec
+    11		5				(0,0)				9.489059448242188e-05sec
+    12		-6				(0,4)				0.00010204315185546875sec
+    13		-6				(0,5)				0.00011014938354492188sec
+    14		-7				(0,13)				0.00011491775512695312sec
+    15		-7				(0,12)				0.00012087821960449219sec
+    16		-8				(0,10)				0.0001289844512939453sec
+    17		-8				(0,10)				0.0001361370086669922sec
+    18		9				(0,0)				0.00014281272888183594sec
+    19		9				(0,3)				0.00014781951904296875sec
+    20		-10				(0,13)				0.00015616416931152344sec
+    ==========================================================================
+
+10. Compare the runtimes for A4Q5 and A4Q6 (Minimax with cut-off, two variations) with the results from
+    A4Q7 (Alpha-Beta with cut-off, two variations). How much faster was the search, for games with larger N?
+    Solution:
+    Compare the maximum value N = 20 by the table above:
+
+    A4Q5: 8.606910705566406e-05sec
+    A4Q6: 8.797645568847656e-05sec
+    A4Q7: v1a: 0.0001571178436279297sec
+          v1b: 0.00015616416931152344sec
+
+    The runtimes of A4Q5 is similar than A4Q6, and A4Q7 v1a is simialr than A4Q7 v1b in the larger N
+    Also, the A4Q5's runtimes are faster than A4Q7 1.82 times
+          the A4Q6's runtimes are faster than A4Q6 1.92 times
+    So we can conclude that A4Q7's runtime is equal to A4Q5 + A4Q6 's running time
+
+
