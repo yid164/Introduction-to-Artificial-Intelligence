@@ -1,0 +1,71 @@
+Student Name: Yinsheng Dong
+Student Number: 1148648
+NSID: yid164
+CMPT 317 A1Q1
+
+Q1.
+Specify Problem
+	a. There is a given list L that contains finite integers
+	b. There is a target number T that is our goal
+	c. Using '+' '-' '*' '/' to do the linear operations by using L's elements
+	d. Every element in L can only be used once
+
+
+
+1. The initial state:
+	expr = ''
+	given list L
+	target number T
+
+2. is_goal()
+		return eval(expr) = T
+
+3. actions ()
+	a list of actions: A[]
+
+	if expr == '':
+		A.append('add first element' + L[0])
+
+	if expr has integers which in L:
+		A.append('remove_contained_integer')
+
+	if eval(expr) < T:
+
+		if T - eval(expr) is in L:
+			A.append('add int loc' + L[i])
+
+		elif T / eval(expr) is in L:
+			A.append('multiply int loc' + L[i])
+		else:
+			A.append('multiply')
+
+	elif eval(expr) > T:
+		if eval(expr) - T is in L:
+			A.append('minus int loc' + L[i])
+		elif eval(expr) /T is in L:
+			A.append('divide int loc' + L[i])
+		else:
+			A.append('minus')
+	return A
+
+4. result()
+	if action[:17] == 'add first element':
+		return state(expr == action[-1])
+	elif action == 'remove_contained_integer':
+		return state(L.remove(integers in expr))
+	elif action == 'multiply':
+		return state(expr+'*'+L.next)
+	elif action == 'minus':
+		return state(expr+'-'+L.next)
+	elif action[:11] == 'add int loc']
+		return state(expr+'+'+action[-1])
+	elif action [:16] == 'multiply int loc'
+		return state(expr+'*'+action[-1])
+	elif action [:12] == 'minus int loc'
+		return state(expr+'-'+action[-1])
+	elif action [:14] == 'divide int loc'
+		return state(expr+'/'+action[-1])
+	return state()
+
+5. The path cost
+	(size(L)!)^4 is the worst cost

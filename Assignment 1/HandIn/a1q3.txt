@@ -1,0 +1,35 @@
+# Name: Yinsheng Dong
+# Student Number: 11148648
+# NSID: yid164
+# CMPT317 A1
+
+Pseudocode:
+
+
+function heuristic(problem)
+    inti queue
+    while queue is not empty:
+        node = queue.pop()
+        if node.children.cost_path < node.cost_path:
+            node.children.push()
+            return true
+    return false
+
+
+
+
+
+The heuristic function that produced the solution in a reasonable time frame.
+So we got good enough for solving problem at hand
+This solution might be not the best one, (some time greedy is better)
+and it sometimes imply approximate the exact solution
+
+However, since we use h(n) = g(n) + h'(n), it is still good in the most time.
+So the shortest-path problem can use the heuristic function
+
+time complexity: since we need find the largest one to close to target, the complexity is O(logn) in
+the generally case
+
+
+
+

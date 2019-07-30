@@ -1,0 +1,21 @@
+# Name: Yinsheng Dong
+# Student Number: 11148648
+# NSID: yid164
+# CMPT317 A1Q5
+
+1. Which algorithm used the most time to solve the problem:
+
+    the most one is BFS and DFS, they are pretty similar time complexly,
+    and the DFS spent more time as well
+
+2. Which algorithm used the most memory to solve the problem:
+
+    BFS, using 79% of my memory, then DFS using 76%
+
+3. How often did your algorithms find an optimal solution:
+
+    very few times, should be only 3 - 4 times
+
+4. Did any algorithms run so long that you terminated them before they returned an answer?
+
+    BFS, when I implement it spent a lot of time
