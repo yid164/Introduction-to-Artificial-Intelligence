@@ -1,0 +1,94 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT317 A2Q2
+
+
+Output from a2q2.java
+
+Test 0:
+The initial best guess is: Operations: [(DIV  344.0), (MUL  397.0), (MUL  152.0), (DIV  307.0), (ADD  217.0)], the result is: 217.0
+Found the better neighbour: Operations: [(DIV  344.0), (MUL  397.0), (MUL  152.0), (ADD  307.0), (ADD  217.0)], the result is: 524.0
+Found the better neighbour: Operations: [(DIV  344.0), (ADD  397.0), (MUL  152.0), (ADD  307.0), (ADD  217.0)], the result is: 60868.0
+Found the better neighbour: Operations: [(ADD  344.0), (ADD  397.0), (MUL  152.0), (ADD  307.0), (ADD  217.0)], the result is: 113156.0
+The Target Number is: 274161.0
+The Result Number is: 113156.0
+
+Test 1:
+The initial best guess is: Operations: [(DIV  117.0), (ADD  305.0), (DIV  329.0), (ADD  343.0), (DIV  444.0)], the result is: 0.7746104767381362
+Found the better neighbour: Operations: [(DIV  117.0), (ADD  305.0), (DIV  329.0), (ADD  343.0), (NOP  444.0)], the result is: 343.9270516717325
+Found the better neighbour: Operations: [(DIV  117.0), (ADD  305.0), (ADD  329.0), (ADD  343.0), (NOP  444.0)], the result is: 977.0
+Found the better neighbour: Operations: [(SUB  117.0), (ADD  305.0), (ADD  329.0), (ADD  343.0), (NOP  444.0)], the result is: 860.0
+The Target Number is: 907.0
+The Result Number is: 860.0
+
+Test 2:
+The initial best guess is: Operations: [(MUL  449.0), (ADD  239.0), (NOP  376.0), (DIV  117.0), (NOP  288.0)], the result is: 2.0427350427350426
+Found the better neighbour: Operations: [(MUL  449.0), (ADD  239.0), (NOP  376.0), (SUB  117.0), (NOP  288.0)], the result is: 122.0
+Found the better neighbour: Operations: [(MUL  449.0), (ADD  239.0), (NOP  376.0), (ADD  117.0), (NOP  288.0)], the result is: 356.0
+Found the better neighbour: Operations: [(MUL  449.0), (ADD  239.0), (ADD  376.0), (ADD  117.0), (NOP  288.0)], the result is: 732.0
+Found the better neighbour: Operations: [(ADD  449.0), (ADD  239.0), (ADD  376.0), (ADD  117.0), (NOP  288.0)], the result is: 1181.0
+The Target Number is: 1282.0
+The Result Number is: 1181.0
+
+Test 3:
+The initial best guess is: Operations: [(ADD  310.0), (SUB  195.0), (ADD  382.0), (NOP  213.0), (ADD  118.0)], the result is: 615.0
+Found the better neighbour: Operations: [(ADD  310.0), (SUB  195.0), (ADD  382.0), (ADD  213.0), (ADD  118.0)], the result is: 828.0
+Found the better neighbour: Operations: [(ADD  310.0), (NOP  195.0), (ADD  382.0), (ADD  213.0), (ADD  118.0)], the result is: 1023.0
+Found the better neighbour: Operations: [(ADD  310.0), (ADD  195.0), (ADD  382.0), (ADD  213.0), (ADD  118.0)], the result is: 1218.0
+The Target Number is: 1275.0
+The Result Number is: 1218.0
+
+Test 4:
+The initial best guess is: Operations: [(DIV  469.0), (ADD  347.0), (DIV  499.0), (NOP  275.0), (MUL  364.0)], the result is: 253.12224448897797
+Found the better neighbour: Operations: [(DIV  469.0), (ADD  347.0), (DIV  499.0), (NOP  275.0), (ADD  364.0)], the result is: 364.6953907815631
+Found the better neighbour: Operations: [(DIV  469.0), (ADD  347.0), (DIV  499.0), (ADD  275.0), (ADD  364.0)], the result is: 639.6953907815631
+Found the better neighbour: Operations: [(DIV  469.0), (ADD  347.0), (NOP  499.0), (ADD  275.0), (ADD  364.0)], the result is: 986.0
+Found the better neighbour: Operations: [(DIV  469.0), (ADD  347.0), (NOP  499.0), (NOP  275.0), (ADD  364.0)], the result is: 711.0
+The Target Number is: 839.0
+The Result Number is: 711.0
+
+Test 5:
+The initial best guess is: Operations: [(MUL  365.0), (ADD  427.0), (ADD  132.0), (ADD  467.0), (ADD  238.0)], the result is: 1264.0
+Found the better neighbour: Operations: [(MUL  365.0), (ADD  427.0), (ADD  132.0), (NOP  467.0), (ADD  238.0)], the result is: 797.0
+Found the better neighbour: Operations: [(MUL  365.0), (ADD  427.0), (ADD  132.0), (NOP  467.0), (NOP  238.0)], the result is: 559.0
+Found the better neighbour: Operations: [(MUL  365.0), (ADD  427.0), (ADD  132.0), (SUB  467.0), (NOP  238.0)], the result is: 92.0
+The Target Number is: 186.0
+The Result Number is: 92.0
+
+Test 6:
+The initial best guess is: Operations: [(NOP  234.0), (NOP  479.0), (ADD  331.0), (DIV  174.0), (SUB  112.0)], the result is: -110.09770114942529
+Found the better neighbour: Operations: [(NOP  234.0), (NOP  479.0), (ADD  331.0), (DIV  174.0), (DIV  112.0)], the result is: 0.01698481116584565
+Found the better neighbour: Operations: [(NOP  234.0), (NOP  479.0), (ADD  331.0), (DIV  174.0), (MUL  112.0)], the result is: 213.05747126436782
+Found the better neighbour: Operations: [(ADD  234.0), (NOP  479.0), (ADD  331.0), (DIV  174.0), (MUL  112.0)], the result is: 363.67816091954023
+The Target Number is: 324.0
+The Result Number is: 363.67816091954023
+
+Test 7:
+The initial best guess is: Operations: [(ADD  474.0), (NOP  131.0), (DIV  301.0), (SUB  194.0), (DIV  478.0)], the result is: -0.4025632827812452
+Found the better neighbour: Operations: [(ADD  474.0), (NOP  131.0), (DIV  301.0), (SUB  194.0), (SUB  478.0)], the result is: -670.4252491694352
+Found the better neighbour: Operations: [(ADD  474.0), (SUB  131.0), (DIV  301.0), (SUB  194.0), (SUB  478.0)], the result is: -670.8604651162791
+Found the better neighbour: Operations: [(DIV  474.0), (SUB  131.0), (DIV  301.0), (SUB  194.0), (SUB  478.0)], the result is: -672.4352159468439
+Found the better neighbour: Operations: [(DIV  474.0), (SUB  131.0), (SUB  301.0), (SUB  194.0), (SUB  478.0)], the result is: -1104.0
+Found the better neighbour: Operations: [(SUB  474.0), (SUB  131.0), (SUB  301.0), (SUB  194.0), (SUB  478.0)], the result is: -1578.0
+The Target Number is: -7013.0
+The Result Number is: -1578.0
+
+Test 8:
+The initial best guess is: Operations: [(DIV  392.0), (DIV  142.0), (ADD  354.0), (MUL  482.0), (DIV  106.0)], the result is: 1609.698113207547
+Found the better neighbour: Operations: [(DIV  392.0), (DIV  142.0), (ADD  354.0), (ADD  482.0), (DIV  106.0)], the result is: 7.886792452830188
+Found the better neighbour: Operations: [(ADD  392.0), (DIV  142.0), (ADD  354.0), (ADD  482.0), (DIV  106.0)], the result is: 7.912835503587562
+Found the better neighbour: Operations: [(ADD  392.0), (ADD  142.0), (ADD  354.0), (ADD  482.0), (DIV  106.0)], the result is: 12.924528301886792
+The Target Number is: 144.0
+The Result Number is: 12.924528301886792
+
+Test 9:
+The initial best guess is: Operations: [(SUB  191.0), (NOP  381.0), (MUL  193.0), (ADD  339.0), (DIV  233.0)], the result is: -156.75536480686696
+Found the better neighbour: Operations: [(DIV  191.0), (NOP  381.0), (MUL  193.0), (ADD  339.0), (DIV  233.0)], the result is: 1.4549356223175967
+Found the better neighbour: Operations: [(DIV  191.0), (NOP  381.0), (MUL  193.0), (ADD  339.0), (NOP  233.0)], the result is: 339.0
+Found the better neighbour: Operations: [(DIV  191.0), (NOP  381.0), (MUL  193.0), (ADD  339.0), (MUL  233.0)], the result is: 78987.0
+Found the better neighbour: Operations: [(DIV  191.0), (NOP  381.0), (ADD  193.0), (ADD  339.0), (MUL  233.0)], the result is: 123956.0
+Found the better neighbour: Operations: [(DIV  191.0), (ADD  381.0), (ADD  193.0), (ADD  339.0), (MUL  233.0)], the result is: 212729.0
+Found the better neighbour: Operations: [(ADD  191.0), (ADD  381.0), (ADD  193.0), (ADD  339.0), (MUL  233.0)], the result is: 257232.0
+The Target Number is: 258161.0
+The Result Number is: 257232.0

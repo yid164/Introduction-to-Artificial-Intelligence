@@ -1,0 +1,115 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT317 A2Q3
+
+a2q3.java output:
+
+Test 0:
+Find the better one: Operations: [(DIV  344.0), (DIV  397.0), (DIV  152.0), (DIV  307.0), (ADD  217.0)], the result is: 217.0
+Find the better one: Operations: [(ADD  344.0), (DIV  397.0), (NOP  152.0), (MUL  307.0), (NOP  217.0)], the result is: 266.01511335012594
+Find the better one: Operations: [(ADD  344.0), (SUB  397.0), (ADD  152.0), (NOP  307.0), (MUL  217.0)], the result is: 21483.0
+Find the better one: Operations: [(DIV  344.0), (ADD  397.0), (MUL  152.0), (DIV  307.0), (MUL  217.0)], the result is: 42653.57654723127
+Find the better one: Operations: [(ADD  344.0), (ADD  397.0), (MUL  152.0), (NOP  307.0), (NOP  217.0)], the result is: 112632.0
+Find the better one: Operations: [(ADD  344.0), (ADD  397.0), (NOP  152.0), (NOP  307.0), (MUL  217.0)], the result is: 160797.0
+Find the better one: Operations: [(ADD  344.0), (ADD  397.0), (ADD  152.0), (MUL  307.0), (NOP  217.0)], the result is: 274151.0
+The Target Number is: 274161.0
+The Result Number is: 274151.0
+
+Test 1:
+Find the better one: Operations: [(MUL  117.0), (DIV  305.0), (ADD  329.0), (ADD  343.0), (DIV  444.0)], the result is: 1.5135135135135136
+Find the better one: Operations: [(NOP  117.0), (ADD  305.0), (NOP  329.0), (DIV  343.0), (ADD  444.0)], the result is: 444.88921282798833
+Find the better one: Operations: [(MUL  117.0), (ADD  305.0), (ADD  329.0), (ADD  343.0), (SUB  444.0)], the result is: 533.0
+Find the better one: Operations: [(DIV  117.0), (DIV  305.0), (ADD  329.0), (ADD  343.0), (NOP  444.0)], the result is: 672.0
+Find the better one: Operations: [(MUL  117.0), (NOP  305.0), (MUL  329.0), (ADD  343.0), (ADD  444.0)], the result is: 787.0
+Find the better one: Operations: [(SUB  117.0), (ADD  305.0), (ADD  329.0), (ADD  343.0), (NOP  444.0)], the result is: 860.0
+Find the better one: Operations: [(ADD  117.0), (ADD  305.0), (SUB  329.0), (ADD  343.0), (ADD  444.0)], the result is: 880.0
+Find the better one: Operations: [(ADD  117.0), (DIV  305.0), (MUL  329.0), (ADD  343.0), (ADD  444.0)], the result is: 913.2065573770492
+The Target Number is: 907.0
+The Result Number is: 913.2065573770492
+
+Test 2:
+Find the better one: Operations: [(DIV  449.0), (ADD  239.0), (SUB  376.0), (MUL  117.0), (DIV  288.0)], the result is: -55.65625
+Find the better one: Operations: [(SUB  449.0), (SUB  239.0), (NOP  376.0), (NOP  117.0), (DIV  288.0)], the result is: -2.388888888888889
+Find the better one: Operations: [(NOP  449.0), (MUL  239.0), (SUB  376.0), (DIV  117.0), (DIV  288.0)], the result is: -0.011158594491927826
+Find the better one: Operations: [(NOP  449.0), (NOP  239.0), (MUL  376.0), (ADD  117.0), (ADD  288.0)], the result is: 405.0
+Find the better one: Operations: [(DIV  449.0), (NOP  239.0), (ADD  376.0), (NOP  117.0), (ADD  288.0)], the result is: 664.0
+Find the better one: Operations: [(ADD  449.0), (NOP  239.0), (ADD  376.0), (ADD  117.0), (ADD  288.0)], the result is: 1230.0
+The Target Number is: 1282.0
+The Result Number is: 1230.0
+
+Test 3:
+Find the better one: Operations: [(NOP  310.0), (MUL  195.0), (DIV  382.0), (SUB  213.0), (DIV  118.0)], the result is: -1.805084745762712
+Find the better one: Operations: [(MUL  310.0), (DIV  195.0), (ADD  382.0), (NOP  213.0), (DIV  118.0)], the result is: 3.23728813559322
+Find the better one: Operations: [(MUL  310.0), (SUB  195.0), (SUB  382.0), (DIV  213.0), (ADD  118.0)], the result is: 115.29107981220658
+Find the better one: Operations: [(DIV  310.0), (MUL  195.0), (NOP  382.0), (NOP  213.0), (ADD  118.0)], the result is: 118.0
+Find the better one: Operations: [(MUL  310.0), (SUB  195.0), (ADD  382.0), (ADD  213.0), (ADD  118.0)], the result is: 518.0
+Find the better one: Operations: [(ADD  310.0), (DIV  195.0), (MUL  382.0), (NOP  213.0), (ADD  118.0)], the result is: 725.2820512820513
+Find the better one: Operations: [(ADD  310.0), (ADD  195.0), (NOP  382.0), (ADD  213.0), (ADD  118.0)], the result is: 836.0
+Find the better one: Operations: [(NOP  310.0), (ADD  195.0), (ADD  382.0), (MUL  213.0), (DIV  118.0)], the result is: 1041.5338983050847
+The Target Number is: 1275.0
+The Result Number is: 1041.5338983050847
+
+Test 4:
+Find the better one: Operations: [(MUL  469.0), (DIV  347.0), (DIV  499.0), (DIV  275.0), (NOP  364.0)], the result is: 0.0
+Find the better one: Operations: [(MUL  469.0), (NOP  347.0), (NOP  499.0), (ADD  275.0), (ADD  364.0)], the result is: 639.0
+Find the better one: Operations: [(MUL  469.0), (ADD  347.0), (NOP  499.0), (NOP  275.0), (ADD  364.0)], the result is: 711.0
+Find the better one: Operations: [(DIV  469.0), (DIV  347.0), (ADD  499.0), (ADD  275.0), (NOP  364.0)], the result is: 774.0
+Find the better one: Operations: [(DIV  469.0), (SUB  347.0), (ADD  499.0), (ADD  275.0), (ADD  364.0)], the result is: 791.0
+Find the better one: Operations: [(ADD  469.0), (NOP  347.0), (NOP  499.0), (NOP  275.0), (ADD  364.0)], the result is: 833.0
+The Target Number is: 839.0
+The Result Number is: 833.0
+
+Test 5:
+Find the better one: Operations: [(ADD  365.0), (SUB  427.0), (SUB  132.0), (DIV  467.0), (NOP  238.0)], the result is: -0.41541755888650966
+Find the better one: Operations: [(DIV  365.0), (MUL  427.0), (NOP  132.0), (MUL  467.0), (MUL  238.0)], the result is: 0.0
+Find the better one: Operations: [(DIV  365.0), (DIV  427.0), (DIV  132.0), (DIV  467.0), (ADD  238.0)], the result is: 238.0
+Find the better one: Operations: [(SUB  365.0), (MUL  427.0), (DIV  132.0), (DIV  467.0), (ADD  238.0)], the result is: 235.47169229770944
+Find the better one: Operations: [(ADD  365.0), (DIV  427.0), (DIV  132.0), (ADD  467.0), (SUB  238.0)], the result is: 229.00647576467247
+Find the better one: Operations: [(DIV  365.0), (NOP  427.0), (NOP  132.0), (ADD  467.0), (SUB  238.0)], the result is: 229.0
+Find the better one: Operations: [(SUB  365.0), (ADD  427.0), (DIV  132.0), (MUL  467.0), (NOP  238.0)], the result is: 219.34848484848487
+Find the better one: Operations: [(ADD  365.0), (ADD  427.0), (SUB  132.0), (SUB  467.0), (NOP  238.0)], the result is: 193.0
+The Target Number is: 186.0
+The Result Number is: 193.0
+
+Test 6:
+Find the better one: Operations: [(DIV  234.0), (ADD  479.0), (NOP  331.0), (MUL  174.0), (SUB  112.0)], the result is: 83234.0
+Find the better one: Operations: [(DIV  234.0), (NOP  479.0), (MUL  331.0), (NOP  174.0), (SUB  112.0)], the result is: -112.0
+Find the better one: Operations: [(NOP  234.0), (MUL  479.0), (SUB  331.0), (DIV  174.0), (NOP  112.0)], the result is: -1.9022988505747127
+Find the better one: Operations: [(ADD  234.0), (DIV  479.0), (DIV  331.0), (NOP  174.0), (DIV  112.0)], the result is: 1.3177539525860865E-5
+Find the better one: Operations: [(NOP  234.0), (DIV  479.0), (MUL  331.0), (ADD  174.0), (DIV  112.0)], the result is: 1.5535714285714286
+Find the better one: Operations: [(ADD  234.0), (DIV  479.0), (ADD  331.0), (NOP  174.0), (ADD  112.0)], the result is: 443.4885177453027
+Find the better one: Operations: [(DIV  234.0), (MUL  479.0), (ADD  331.0), (ADD  174.0), (SUB  112.0)], the result is: 393.0
+Find the better one: Operations: [(ADD  234.0), (NOP  479.0), (ADD  331.0), (DIV  174.0), (MUL  112.0)], the result is: 363.67816091954023
+Find the better one: Operations: [(DIV  234.0), (NOP  479.0), (NOP  331.0), (ADD  174.0), (ADD  112.0)], the result is: 286.0
+Find the better one: Operations: [(ADD  234.0), (ADD  479.0), (DIV  331.0), (ADD  174.0), (ADD  112.0)], the result is: 288.1540785498489
+Find the better one: Operations: [(ADD  234.0), (NOP  479.0), (MUL  331.0), (DIV  174.0), (SUB  112.0)], the result is: 333.13793103448273
+Find the better one: Operations: [(NOP  234.0), (ADD  479.0), (SUB  331.0), (ADD  174.0), (NOP  112.0)], the result is: 322.0
+The Target Number is: 324.0
+The Result Number is: 322.0
+
+Test 7:
+Find the better one: Operations: [(SUB  474.0), (DIV  131.0), (MUL  301.0), (MUL  194.0), (DIV  478.0)], the result is: -442.0255517582804
+Find the better one: Operations: [(SUB  474.0), (MUL  131.0), (DIV  301.0), (ADD  194.0), (MUL  478.0)], the result is: -5875.747508305643
+The Target Number is: -7013.0
+The Result Number is: -5875.747508305643
+
+Test 8:
+Find the better one: Operations: [(NOP  392.0), (SUB  142.0), (SUB  354.0), (ADD  482.0), (ADD  106.0)], the result is: 92.0
+Find the better one: Operations: [(DIV  392.0), (NOP  142.0), (NOP  354.0), (MUL  482.0), (ADD  106.0)], the result is: 106.0
+Find the better one: Operations: [(MUL  392.0), (NOP  142.0), (ADD  354.0), (DIV  482.0), (ADD  106.0)], the result is: 106.7344398340249
+Find the better one: Operations: [(ADD  392.0), (ADD  142.0), (SUB  354.0), (NOP  482.0), (NOP  106.0)], the result is: 180.0
+Find the better one: Operations: [(ADD  392.0), (DIV  142.0), (SUB  354.0), (ADD  482.0), (NOP  106.0)], the result is: 130.76056338028167
+Find the better one: Operations: [(NOP  392.0), (ADD  142.0), (NOP  354.0), (NOP  482.0), (NOP  106.0)], the result is: 142.0
+Find the better one: Operations: [(ADD  392.0), (NOP  142.0), (SUB  354.0), (NOP  482.0), (ADD  106.0)], the result is: 144.0
+The Target Number is: 144.0
+The Result Number is: 144.0
+
+Test 9:
+Find the better one: Operations: [(DIV  191.0), (MUL  381.0), (DIV  193.0), (ADD  339.0), (MUL  233.0)], the result is: 78987.0
+Find the better one: Operations: [(MUL  191.0), (ADD  381.0), (NOP  193.0), (MUL  339.0), (ADD  233.0)], the result is: 129392.0
+Find the better one: Operations: [(NOP  191.0), (ADD  381.0), (ADD  193.0), (MUL  339.0), (NOP  233.0)], the result is: 194586.0
+Find the better one: Operations: [(NOP  191.0), (ADD  381.0), (ADD  193.0), (MUL  339.0), (ADD  233.0)], the result is: 194819.0
+Find the better one: Operations: [(ADD  191.0), (ADD  381.0), (ADD  193.0), (MUL  339.0), (ADD  233.0)], the result is: 259568.0
+The Target Number is: 258161.0
+The Result Number is: 259568.0

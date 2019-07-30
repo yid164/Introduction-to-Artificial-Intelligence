@@ -1,0 +1,35 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT317 A2Q6
+
+Data 1
+Strategy                            RMSE                        Ave Time
+Random Guessing                     0.053749796954642916       0.0031952900000000004s
+Random Search                       0.31574643235947425        7.034760000000001E-4s
+HillClimbing Search					0.03986317357540918		   0.006294682s
+Stochastic HillClimbing Search      0.0018739177130718198      0.005235362s
+RRHillClimbing 50 x 20              0.005041064702068903       0.006003926000000001s
+RRHillClimbing 10 x 100             0.0032300504666330776      0.005738885s
+
+
+
+Data 2
+Strategy                            RMSE                        Ave Time
+Random Guessing                     0.07934346543622654        0.011307605s
+Random Search                       0.21810378081841736        0.001779699s
+HillClimbing Search					0.06616120886935375		   0.063833282s
+Stochastic HillClimbing Search      1.154695375524426E-4       0.045275878000000006s
+RRHillClimbing 50 x 20              0.007311398359069617       0.06709577500000001s
+RRHillClimbing 10 x 100             0.005902761181350288       0.06421584400000001s
+
+
+1. The Stochastic HillClimbing Search has the lowest RMSE which is the lowest one in both data1 and data2 
+
+2. The Random Guessing does works well because it has more possibility to jump out the the local maximum
+
+3. It is better to have lots of short runs, because whenever it goes climb, they are still in the climb, so the short
+    is better
+
+4. RMSE would get smaller as the length of L increases because when L increases, they RMSE will divide more,
+    but the error is still in the range, so RMSE is become smaller

@@ -1,0 +1,13 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT317 A2Q6_EXECUTION
+
+To run the code for this assignment, a2q6.java
+
+0. My assignment requires Java 8 environment on the tester's computer 
+1. Download all the java code, and please put the "a2q6_data1.txt" and "a2q6_data2.txt" and all the java codes in a same directory 
+2. At UNIX prompt:
+	a. Compiling: UNIX$ javac a2q6.java
+	b. Execute:   UNIX$ java a2q6
+3. Then you will get the result of a2q6, Thanks very much. 

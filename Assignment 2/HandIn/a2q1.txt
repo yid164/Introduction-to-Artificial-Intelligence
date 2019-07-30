@@ -1,0 +1,130 @@
+## Name: Yinsheng Dong
+## Student Number: 11148648
+## NSID: yid164
+## CMPT317 A2Q1
+
+Output of a2q1.java
+
+Test 1:
+The Initially best guess is: Operations: [(ADD  344.0), (MUL  397.0), (DIV  152.0), (DIV  307.0), (SUB  217.0)], the result is: -214.0733756214641
+The new guess: Operations: [(NOP  344.0), (ADD  397.0), (DIV  152.0), (DIV  307.0), (DIV  217.0)] is better than best, and the result is: 3.920566362844171E-5
+The new guess: Operations: [(ADD  344.0), (ADD  397.0), (ADD  152.0), (NOP  307.0), (SUB  217.0)] is better than best, and the result is: 676.0
+The new guess: Operations: [(SUB  344.0), (ADD  397.0), (NOP  152.0), (MUL  307.0), (NOP  217.0)] is better than best, and the result is: 16271.0
+The new guess: Operations: [(DIV  344.0), (NOP  397.0), (SUB  152.0), (ADD  307.0), (MUL  217.0)] is better than best, and the result is: 33635.0
+The new guess: Operations: [(ADD  344.0), (MUL  397.0), (NOP  152.0), (ADD  307.0), (SUB  217.0)] is better than best, and the result is: 136658.0
+The new guess: Operations: [(ADD  344.0), (ADD  397.0), (NOP  152.0), (ADD  307.0), (MUL  217.0)] is better than best, and the result is: 227416.0
+The new guess: Operations: [(ADD  344.0), (MUL  397.0), (DIV  152.0), (MUL  307.0), (SUB  217.0)] is better than best, and the result is: 275614.4210526316
+The Target Number is: 274161.0
+The Result Number is: 275614.4210526316
+
+Test 2:
+The Initially best guess is: Operations: [(MUL  117.0), (SUB  305.0), (DIV  329.0), (MUL  343.0), (DIV  444.0)], the result is: -0.71616829595553
+The new guess: Operations: [(MUL  117.0), (MUL  305.0), (DIV  329.0), (SUB  343.0), (ADD  444.0)] is better than best, and the result is: 101.0
+The new guess: Operations: [(ADD  117.0), (SUB  305.0), (ADD  329.0), (SUB  343.0), (ADD  444.0)] is better than best, and the result is: 242.0
+The new guess: Operations: [(SUB  117.0), (SUB  305.0), (DIV  329.0), (ADD  343.0), (ADD  444.0)] is better than best, and the result is: 785.7173252279636
+The new guess: Operations: [(ADD  117.0), (DIV  305.0), (DIV  329.0), (ADD  343.0), (ADD  444.0)] is better than best, and the result is: 787.001165977378
+The new guess: Operations: [(ADD  117.0), (NOP  305.0), (ADD  329.0), (NOP  343.0), (ADD  444.0)] is better than best, and the result is: 890.0
+The Target Number is: 907.0
+The Result Number is: 890.0
+
+Test 3:
+The Initially best guess is: Operations: [(MUL  449.0), (SUB  239.0), (SUB  376.0), (NOP  117.0), (DIV  288.0)], the result is: -2.1354166666666665
+The new guess: Operations: [(DIV  449.0), (DIV  239.0), (ADD  376.0), (SUB  117.0), (ADD  288.0)] is better than best, and the result is: 547.0
+The new guess: Operations: [(NOP  449.0), (DIV  239.0), (ADD  376.0), (NOP  117.0), (ADD  288.0)] is better than best, and the result is: 664.0
+The new guess: Operations: [(DIV  449.0), (MUL  239.0), (ADD  376.0), (ADD  117.0), (ADD  288.0)] is better than best, and the result is: 781.0
+The new guess: Operations: [(MUL  449.0), (NOP  239.0), (ADD  376.0), (DIV  117.0), (MUL  288.0)] is better than best, and the result is: 925.5384615384615
+The new guess: Operations: [(ADD  449.0), (NOP  239.0), (ADD  376.0), (NOP  117.0), (ADD  288.0)] is better than best, and the result is: 1113.0
+The new guess: Operations: [(ADD  449.0), (ADD  239.0), (ADD  376.0), (NOP  117.0), (ADD  288.0)] is better than best, and the result is: 1352.0
+The Target Number is: 1282.0
+The Result Number is: 1352.0
+
+Test 4:
+The Initially best guess is: Operations: [(NOP  310.0), (DIV  195.0), (NOP  382.0), (DIV  213.0), (DIV  118.0)], the result is: 0.0
+The new guess: Operations: [(SUB  310.0), (ADD  195.0), (NOP  382.0), (ADD  213.0), (DIV  118.0)] is better than best, and the result is: 0.8305084745762712
+The new guess: Operations: [(ADD  310.0), (DIV  195.0), (NOP  382.0), (DIV  213.0), (ADD  118.0)] is better than best, and the result is: 118.00746358492837
+The new guess: Operations: [(ADD  310.0), (DIV  195.0), (MUL  382.0), (DIV  213.0), (MUL  118.0)] is better than best, and the result is: 336.42855423137115
+The new guess: Operations: [(SUB  310.0), (ADD  195.0), (ADD  382.0), (NOP  213.0), (ADD  118.0)] is better than best, and the result is: 385.0
+The new guess: Operations: [(ADD  310.0), (DIV  195.0), (MUL  382.0), (MUL  213.0), (DIV  118.0)] is better than best, and the result is: 1096.1955671447197
+The new guess: Operations: [(ADD  310.0), (ADD  195.0), (ADD  382.0), (ADD  213.0), (ADD  118.0)] is better than best, and the result is: 1218.0
+The new guess: Operations: [(ADD  310.0), (ADD  195.0), (ADD  382.0), (ADD  213.0), (ADD  118.0)] is better than best, and the result is: 1218.0
+The Target Number is: 1275.0
+The Result Number is: 1218.0
+
+Test 5:
+The Initially best guess is: Operations: [(MUL  469.0), (SUB  347.0), (NOP  499.0), (MUL  275.0), (DIV  364.0)], the result is: -262.1565934065934
+The new guess: Operations: [(ADD  469.0), (ADD  347.0), (DIV  499.0), (DIV  275.0), (DIV  364.0)] is better than best, and the result is: 1.6336369041779863E-5
+The new guess: Operations: [(ADD  469.0), (SUB  347.0), (ADD  499.0), (NOP  275.0), (DIV  364.0)] is better than best, and the result is: 1.706043956043956
+The new guess: Operations: [(DIV  469.0), (ADD  347.0), (ADD  499.0), (NOP  275.0), (ADD  364.0)] is better than best, and the result is: 1210.0
+The new guess: Operations: [(ADD  469.0), (NOP  347.0), (ADD  499.0), (NOP  275.0), (NOP  364.0)] is better than best, and the result is: 968.0
+The new guess: Operations: [(NOP  469.0), (MUL  347.0), (ADD  499.0), (ADD  275.0), (NOP  364.0)] is better than best, and the result is: 774.0
+The new guess: Operations: [(DIV  469.0), (NOP  347.0), (ADD  499.0), (NOP  275.0), (ADD  364.0)] is better than best, and the result is: 863.0
+The new guess: Operations: [(DIV  469.0), (MUL  347.0), (ADD  499.0), (NOP  275.0), (ADD  364.0)] is better than best, and the result is: 863.0
+The new guess: Operations: [(ADD  469.0), (NOP  347.0), (MUL  499.0), (DIV  275.0), (NOP  364.0)] is better than best, and the result is: 851.0218181818182
+The Target Number is: 839.0
+The Result Number is: 851.0218181818182
+
+Test 6:
+The Initially best guess is: Operations: [(DIV  365.0), (DIV  427.0), (MUL  132.0), (NOP  467.0), (NOP  238.0)], the result is: 0.0
+The new guess: Operations: [(DIV  365.0), (DIV  427.0), (MUL  132.0), (ADD  467.0), (DIV  238.0)] is better than best, and the result is: 1.9621848739495797
+The new guess: Operations: [(DIV  365.0), (MUL  427.0), (DIV  132.0), (NOP  467.0), (ADD  238.0)] is better than best, and the result is: 238.0
+The new guess: Operations: [(SUB  365.0), (SUB  427.0), (NOP  132.0), (DIV  467.0), (ADD  238.0)] is better than best, and the result is: 236.30406852248393
+The new guess: Operations: [(SUB  365.0), (NOP  427.0), (DIV  132.0), (ADD  467.0), (SUB  238.0)] is better than best, and the result is: 226.2348484848485
+The new guess: Operations: [(NOP  365.0), (ADD  427.0), (NOP  132.0), (SUB  467.0), (ADD  238.0)] is better than best, and the result is: 198.0
+The new guess: Operations: [(DIV  365.0), (ADD  427.0), (NOP  132.0), (NOP  467.0), (SUB  238.0)] is better than best, and the result is: 189.0
+The Target Number is: 186.0
+The Result Number is: 189.0
+
+
+The Initially best guess is: Operations: [(MUL  234.0), (ADD  479.0), (MUL  331.0), (MUL  174.0), (SUB  112.0)], the result is: 2.7587414E7
+The new guess: Operations: [(SUB  234.0), (DIV  479.0), (NOP  331.0), (DIV  174.0), (DIV  112.0)] is better than best, and the result is: -2.5067618293447967E-5
+The new guess: Operations: [(NOP  234.0), (DIV  479.0), (DIV  331.0), (DIV  174.0), (ADD  112.0)] is better than best, and the result is: 112.0
+The new guess: Operations: [(SUB  234.0), (ADD  479.0), (ADD  331.0), (SUB  174.0), (NOP  112.0)] is better than best, and the result is: 402.0
+The new guess: Operations: [(NOP  234.0), (ADD  479.0), (NOP  331.0), (DIV  174.0), (MUL  112.0)] is better than best, and the result is: 308.32183908045977
+The new guess: Operations: [(MUL  234.0), (ADD  479.0), (NOP  331.0), (DIV  174.0), (MUL  112.0)] is better than best, and the result is: 308.32183908045977
+The new guess: Operations: [(DIV  234.0), (NOP  479.0), (ADD  331.0), (NOP  174.0), (NOP  112.0)] is better than best, and the result is: 331.0
+The new guess: Operations: [(NOP  234.0), (MUL  479.0), (ADD  331.0), (NOP  174.0), (NOP  112.0)] is better than best, and the result is: 331.0
+The new guess: Operations: [(DIV  234.0), (NOP  479.0), (ADD  331.0), (NOP  174.0), (NOP  112.0)] is better than best, and the result is: 331.0
+The new guess: Operations: [(NOP  234.0), (MUL  479.0), (ADD  331.0), (NOP  174.0), (NOP  112.0)] is better than best, and the result is: 331.0
+The new guess: Operations: [(NOP  234.0), (DIV  479.0), (ADD  331.0), (NOP  174.0), (NOP  112.0)] is better than best, and the result is: 331.0
+The Target Number is: 324.0
+The Result Number is: 331.0
+
+
+The Initially best guess is: Operations: [(ADD  474.0), (SUB  131.0), (SUB  301.0), (DIV  194.0), (ADD  478.0)], the result is: 478.21649484536084
+The new guess: Operations: [(ADD  474.0), (SUB  131.0), (DIV  301.0), (DIV  194.0), (NOP  478.0)] is better than best, and the result is: 0.005873891153200672
+The new guess: Operations: [(DIV  474.0), (MUL  131.0), (DIV  301.0), (NOP  194.0), (SUB  478.0)] is better than best, and the result is: -478.0
+The new guess: Operations: [(DIV  474.0), (DIV  131.0), (SUB  301.0), (SUB  194.0), (SUB  478.0)] is better than best, and the result is: -973.0
+The new guess: Operations: [(NOP  474.0), (DIV  131.0), (SUB  301.0), (SUB  194.0), (SUB  478.0)] is better than best, and the result is: -973.0
+The new guess: Operations: [(SUB  474.0), (NOP  131.0), (SUB  301.0), (SUB  194.0), (SUB  478.0)] is better than best, and the result is: -1447.0
+The new guess: Operations: [(DIV  474.0), (SUB  131.0), (ADD  301.0), (SUB  194.0), (MUL  478.0)] is better than best, and the result is: -11472.0
+The new guess: Operations: [(NOP  474.0), (SUB  131.0), (ADD  301.0), (SUB  194.0), (MUL  478.0)] is better than best, and the result is: -11472.0
+The new guess: Operations: [(MUL  474.0), (SUB  131.0), (ADD  301.0), (SUB  194.0), (MUL  478.0)] is better than best, and the result is: -11472.0
+The Target Number is: -7013.0
+The Result Number is: -11472.0
+
+
+The Initially best guess is: Operations: [(NOP  392.0), (NOP  142.0), (SUB  354.0), (NOP  482.0), (MUL  106.0)], the result is: -37524.0
+The new guess: Operations: [(NOP  392.0), (MUL  142.0), (SUB  354.0), (ADD  482.0), (SUB  106.0)] is better than best, and the result is: 22.0
+The new guess: Operations: [(MUL  392.0), (SUB  142.0), (ADD  354.0), (DIV  482.0), (MUL  106.0)] is better than best, and the result is: 46.62240663900415
+The new guess: Operations: [(MUL  392.0), (MUL  142.0), (ADD  354.0), (DIV  482.0), (ADD  106.0)] is better than best, and the result is: 106.7344398340249
+The new guess: Operations: [(ADD  392.0), (NOP  142.0), (ADD  354.0), (DIV  482.0), (MUL  106.0)] is better than best, and the result is: 164.05809128630705
+The new guess: Operations: [(DIV  392.0), (NOP  142.0), (SUB  354.0), (ADD  482.0), (NOP  106.0)] is better than best, and the result is: 128.0
+The new guess: Operations: [(NOP  392.0), (MUL  142.0), (SUB  354.0), (ADD  482.0), (NOP  106.0)] is better than best, and the result is: 128.0
+The new guess: Operations: [(MUL  392.0), (NOP  142.0), (SUB  354.0), (ADD  482.0), (NOP  106.0)] is better than best, and the result is: 128.0
+The new guess: Operations: [(DIV  392.0), (ADD  142.0), (NOP  354.0), (NOP  482.0), (NOP  106.0)] is better than best, and the result is: 142.0
+The Target Number is: 144.0
+The Result Number is: 142.0
+
+
+The Initially best guess is: Operations: [(SUB  191.0), (SUB  381.0), (SUB  193.0), (MUL  339.0), (DIV  233.0)], the result is: -1113.0257510729614
+The new guess: Operations: [(MUL  191.0), (SUB  381.0), (DIV  193.0), (MUL  339.0), (DIV  233.0)] is better than best, and the result is: -2.8721786119326644
+The new guess: Operations: [(NOP  191.0), (MUL  381.0), (DIV  193.0), (MUL  339.0), (ADD  233.0)] is better than best, and the result is: 233.0
+The new guess: Operations: [(MUL  191.0), (NOP  381.0), (ADD  193.0), (DIV  339.0), (ADD  233.0)] is better than best, and the result is: 233.5693215339233
+The new guess: Operations: [(ADD  191.0), (ADD  381.0), (MUL  193.0), (NOP  339.0), (DIV  233.0)] is better than best, and the result is: 473.80257510729615
+The new guess: Operations: [(SUB  191.0), (DIV  381.0), (ADD  193.0), (MUL  339.0), (SUB  233.0)] is better than best, and the result is: 65024.055118110235
+The new guess: Operations: [(DIV  191.0), (MUL  381.0), (ADD  193.0), (MUL  339.0), (NOP  233.0)] is better than best, and the result is: 65427.0
+The new guess: Operations: [(MUL  191.0), (ADD  381.0), (ADD  193.0), (MUL  339.0), (NOP  233.0)] is better than best, and the result is: 194586.0
+The new guess: Operations: [(MUL  191.0), (ADD  381.0), (ADD  193.0), (MUL  339.0), (ADD  233.0)] is better than best, and the result is: 194819.0
+The new guess: Operations: [(DIV  191.0), (ADD  381.0), (ADD  193.0), (MUL  339.0), (ADD  233.0)] is better than best, and the result is: 194819.0
+The Target Number is: 258161.0
+The Result Number is: 194819.0
